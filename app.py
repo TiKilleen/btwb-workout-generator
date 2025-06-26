@@ -76,4 +76,4 @@ def generate():
     img.save(img_io, 'PNG')
     img_io.seek(0)
 
-    return send_file(img_io, mimetype='image/png', as_attachment=True, download_name='btwb_workout.p_
+    return send_file(img_io, mimetype='image/png', as_attachment=True, download_name='btwb_workout.png')
